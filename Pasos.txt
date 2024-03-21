@@ -9,5 +9,6 @@
 npm install -D cypress-xpath        ----> Instalar xpath
 
 
-----------------------------------------
+-------------- Luego de clonar --------------------------
 
+npm install 
