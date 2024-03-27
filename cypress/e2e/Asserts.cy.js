@@ -20,4 +20,12 @@ describe("Practicas de Asserts ", ()=>{
 
     })
 
+    it.only('Assert Length', () => {
+        cy.visit('https://www.codehim.com/demo/simple-table-pagination-javascript/');
+        cy.wait(1000);
+        cy.get("#myTable > tbody > tr > td").should("have.length", 10) 
+
+
+    });
+
 })
